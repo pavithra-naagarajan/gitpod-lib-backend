@@ -3,7 +3,7 @@ tasks:
       chmod 644 ~/.ssh/id_rsa.pub &&
       chmod 600 ~/.ssh/id_rsa &&
       ssh-keyscan github.com >> ~/.ssh/known_hosts
-  - init: git remote set-url origin git@github.com:samar-programmer/samar-programmer-QuestionaireApplication.git
+  - init: git remote set-url origin git@github.com:pavithra-naagarajan/gitpod-lib-backend.git
   - name: husky dependency
   - init: npm install husky --save-dev && npx husky install && npm pkg set scripts.prepare="husky install" && npx husky add .husky/post-commit "git log -1 --shortstat > history_log.txt"
 vscode:
