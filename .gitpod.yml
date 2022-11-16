@@ -3,4 +3,4 @@
 # and commit this file to your remote git repository to share the goodness with others.
 # edited the file enter new
 tasks:
-  - init: docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=Pass123$ -d mysql:5.7 && docker exec -it some-mysql  mysql -uroot -pPass123$ 
+  - init: docker run --name some-mysql -d mysql:5.7 && docker exec -it some-mysql  mysql -uroot -pPass123$ 
