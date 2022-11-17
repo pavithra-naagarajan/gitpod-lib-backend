@@ -5,3 +5,4 @@
 tasks:
   - init: docker run --name new-mysql -e MYSQL_ROOT_PASSWORD=Pass123$ -d mysql:5.7 && docker exec -it new-mysql  mysql -uroot -pPass123$ 
  
+ 
